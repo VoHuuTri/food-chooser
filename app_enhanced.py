@@ -183,10 +183,11 @@ with st.sidebar:
     st.title("Google Sheet Viewer")
     
     # Input for Google Sheet URL
-    sheet_url = st.text_input(
-        "Enter your public Google Sheet URL",
-        placeholder="https://docs.google.com/spreadsheets/d/your_sheet_id/edit#gid=0"
-    )
+    # sheet_url = st.text_input(
+    #     "Enter your public Google Sheet URL",
+    #     placeholder="https://docs.google.com/spreadsheets/d/your_sheet_id/edit#gid=0"
+    # )
+    sheet_url = "https://docs.google.com/spreadsheets/d/18rWwTejbYT2xrmkVSkRR9-2BCHi0pQyIq_0io-A4DYU/edit?gid=622814645#gid=622814645"
     
     # Option to skip first row
     skip_first_row = st.checkbox("Start from row 2 (skip first row)", value=True, help="Select this if you want to ignore the first row and use the second row as header")
